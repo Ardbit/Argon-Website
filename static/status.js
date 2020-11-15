@@ -103,7 +103,7 @@ function status() {
     window.statusEmbedTest = actions.showFrame;
 };
 
-window.onreadystatechange(() => {
+window.addEventListener('readystatechange', () => {
     if (document.readyState == 'complete' || document.readyState == 'interactive') {
         status();
     }
