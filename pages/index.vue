@@ -31,6 +31,7 @@
 
         gtag('config', 'G-2SDYVTG6YM');
     </script>
+    <script src="https://r4mk7mslg7x6.statuspage.io/embed/script.js"></script>
 </template>
 
 <script>
