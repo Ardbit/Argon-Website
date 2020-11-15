@@ -67,6 +67,10 @@
         padding-top: 15px;
     }
 
+    .links a {
+        padding: 5px 20px;
+    }
+
     .button--invite {
         border: none;
         border-radius: 24px;
