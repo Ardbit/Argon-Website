@@ -19,8 +19,7 @@ export default {
         ],
         script: [
             { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-2SDYVTG6YM' },
-            { src: '/gtag.js' },
-            { src: '/status.js' }
+            { src: '/gtag.js' }
         ]
     },
     server: {

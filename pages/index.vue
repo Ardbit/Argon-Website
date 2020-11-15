@@ -24,6 +24,7 @@
     </div>
 </template>
 
+<script src="/status.js"></script>
 <script>
     import Logo from '~/components/Logo.vue'
 
