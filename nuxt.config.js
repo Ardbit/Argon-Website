@@ -20,7 +20,7 @@ export default {
         script: [
             { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-2SDYVTG6YM' },
             { src: '/gtag.js' },
-            { src: 'https://r4mk7mslg7x6.statuspage.io/embed/script.js' }
+            { src: '/status.js' }
         ]
     },
     server: {
