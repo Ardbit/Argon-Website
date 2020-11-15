@@ -69,6 +69,8 @@
 
     .links a {
         padding: 5px 20px;
+        text-align: center;
+        margin: 20px;
     }
 
     .button--invite {
