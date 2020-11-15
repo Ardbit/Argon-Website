@@ -103,7 +103,9 @@ function status() {
     window.statusEmbedTest = actions.showFrame;
 };
 
-window.addEventListener('readystatechange', () => {
+window.addEventListener('readystatechange', (e) => {
+    console.log('ReadyStateChanged: ', e)
+
     if (document.readyState == 'complete' || document.readyState == 'interactive') {
         status();
     }
