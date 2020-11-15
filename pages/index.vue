@@ -6,7 +6,7 @@
                 Argon
             </h1>
             <h2 class="subtitle">
-                Take your server to the next level.
+                For the better discord servers.
             </h2>
             <div class="links">
                 <a href="https://discord.com/oauth2/authorize?client_id=776342842543964210&permissions=8&scope=bot"
