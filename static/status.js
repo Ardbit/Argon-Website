@@ -103,10 +103,12 @@ function status() {
     window.statusEmbedTest = actions.showFrame;
 };
 
-window.addEventListener('readystatechange', (e) => {
-    console.log('ReadyStateChanged: ', e)
+// Everything but IE
+window.addEventListener("load", function () {
+    status()
+}, false);
 
-    if (document.readyState == 'complete' || document.readyState == 'interactive') {
-        status();
-    }
-})
+// IE
+window.attachEvent("onload", function () {
+    status()
+});
