@@ -1,5 +1,5 @@
 export default {
-    mode: 'spa',
+    ssr: true,
     /*
      ** Headers of the page
      */
@@ -17,6 +17,10 @@ export default {
         link: [
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
         ],
+    },
+    server: {
+        port: parseInt(process.env.PORT),
+        host: '0.0.0.0'
     },
     /*
      ** Customize the progress-bar color
