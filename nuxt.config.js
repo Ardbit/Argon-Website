@@ -1,4 +1,5 @@
 export default {
+    target: 'static',
     ssr: true,
     /*
      ** Headers of the page
