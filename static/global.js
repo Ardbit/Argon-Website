@@ -4,7 +4,11 @@ $(window).ready(function () {
         maxParticles: 80,
         sizeVariations: 0,
         speed: 0.25,
-        color: '#FFFFFF',
+        color: [
+            '#FFFFFF',
+            '#7289DA',
+            '#99AAB5'
+        ],
         connectParticles: true
     })
 });
