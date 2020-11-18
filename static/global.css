@@ -65,6 +65,7 @@ section {
     margin: 15%;
     max-height: 700px;
     position: absolute;
+    z-index: 10000;
 }
 
     section div:first-child {
