@@ -1,0 +1,154 @@
+@charset 'utf-8';
+
+html, body {
+    background-color: #2C2F33;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    scroll-behavior: smooth;
+}
+
+    body:before {
+        content: '';
+        background: #7289DA;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6px;
+        position: fixed;
+        z-index: 10000;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    height: 36px;
+    transform: translateY(13px);
+}
+
+main {
+    max-width: 620px;
+    margin: auto;
+    height: 100vh;
+    padding: 0 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    color: #7289DA;
+}
+
+.subtitle {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+section {
+    width: 60%;
+    margin: 15%;
+    max-height: 700px;
+    position: absolute;
+}
+
+    section div:first-child {
+        border-radius: 24px;
+        background: #23272A;
+        padding: 20px;
+        z-index: 10;
+    }
+
+    section:first-child #scroll-down {
+        transform: translateY(30px);
+        transition: ease-in-out 0.4s;
+        animation: up-down infinite 1s;
+        color: #99AAB5;
+    }
+
+        section:first-child #scroll-down:hover {
+            color: #7289DA;
+        }
+
+section:nth-child(2) {
+    transform: translateY(100%);
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    height: 10px;
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+
+.button--blurple {
+    border: #7289DA 2px solid;
+}
+
+    .button--blurple:hover {
+        background: #7289DA;
+    }
+
+.button--greyple {
+    border: #99AAB5 2px solid;
+}
+
+    .button--greyple:hover {
+        background: #99AAB5;
+    }
+
+::-moz-selection {
+    color: #7289DA;
+    background: #99AAB5;
+    border-radius: 10px;
+}
+
+::selection {
+    color: #7289DA;
+    background: #99AAB5;
+    border-radius: 10px;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

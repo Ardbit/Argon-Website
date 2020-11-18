@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
+    "\\layouts",
     "\\pages",
     "\\static"
   ],
-  "SelectedNode": "\\nuxt.config.js",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
