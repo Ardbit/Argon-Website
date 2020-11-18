@@ -21,7 +21,7 @@ html, body {
         right: 0;
         height: 6px;
         position: fixed;
-        z-index: 10000;
+        z-index: 100000000000;
     }
 
 * {
