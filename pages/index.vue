@@ -1,126 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Argon - Elevate your server.</title>
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500&display=swap" rel="stylesheet">
-    <style>
-        html, body {
-            background-color: #2C2F33;
-            font-family: 'Fira Sans', sans-serif;
-            height: 100%;
-            color: #FFFFFF;
-            position: relative;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            z-index: 10;
-        }
-
-            body:before {
-                content: '';
-                background: #7289DA;
-                top: 0;
-                left: 0;
-                right: 0;
-                height: 6px;
-                position: fixed;
-                z-index: 10000;
-            }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        main {
-            max-width: 620px;
-            margin: auto;
-            height: 100vh;
-            padding: 0 30px;
-            align-items: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        .title {
-            font-size: 50px;
-            line-height: 50px;
-            margin-bottom: 10px;
-            color: #7289DA;
-        }
-
-        .subtitle {
-            font-size: 26px;
-            margin-bottom: 40px;
-        }
-
-        p {
-            margin-bottom: 20px;
-        }
-
-        section {
-            width: 60%;
-            border-radius: 24px;
-            background: #23272A;
-            padding: 20px;
-            z-index: 10;
-        }
-
-        .background {
-            position: absolute;
-            display: block;
-            top: 0;
-            left: 0;
-            z-index: 0;
-        }
-
-        a {
-            color: #FFFFFF;
-            text-decoration: none;
-        }
-
-        .button {
-            border-radius: 10px;
-            padding: 10px;
-            margin: 5px;
-            height: 10px;
-            text-align: center;
-            transition: ease-in-out 0.4s;
-        }
-
-        .button--blurple {
-            border: #7289DA 2px solid;
-        }
-
-            .button--blurple:hover {
-                background: #7289DA;
-            }
-
-        .button--greyple {
-            border: #99AAB5 2px solid;
-        }
-
-            .button--greyple:hover {
-                background: #99AAB5;
-            }
-
-        ::-moz-selection {
-            color: #7289DA;
-            background: #99AAB5;
-            border-radius: 10px;
-        }
-
-        ::selection {
-            color: #7289DA;
-            background: #99AAB5;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-
+<template>
     <main>
         <section>
             <div>
@@ -161,5 +39,118 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
     <script async src="/global.js"></script>
-</body>
-</html>
+</template>
+
+<style>
+    html, body {
+        background-color: #2C2F33;
+        font-family: 'Fira Sans', sans-serif;
+        height: 100%;
+        color: #FFFFFF;
+        position: relative;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        z-index: 10;
+    }
+
+        body:before {
+            content: '';
+            background: #7289DA;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            position: fixed;
+            z-index: 10000;
+        }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        max-width: 620px;
+        margin: auto;
+        height: 100vh;
+        padding: 0 30px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+        color: #7289DA;
+    }
+
+    .subtitle {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    section {
+        width: 60%;
+        border-radius: 24px;
+        background: #23272A;
+        padding: 20px;
+        z-index: 10;
+    }
+
+    .background {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .button {
+        border-radius: 10px;
+        padding: 10px;
+        margin: 5px;
+        height: 10px;
+        text-align: center;
+        transition: ease-in-out 0.4s;
+    }
+
+    .button--blurple {
+        border: #7289DA 2px solid;
+    }
+
+        .button--blurple:hover {
+            background: #7289DA;
+        }
+
+    .button--greyple {
+        border: #99AAB5 2px solid;
+    }
+
+        .button--greyple:hover {
+            background: #99AAB5;
+        }
+
+    ::-moz-selection {
+        color: #7289DA;
+        background: #99AAB5;
+        border-radius: 10px;
+    }
+
+    ::selection {
+        color: #7289DA;
+        background: #99AAB5;
+        border-radius: 10px;
+    }
+</style>
